@@ -13,12 +13,16 @@ The derived work from Raimund has made substantial breaking changes in an effort
 Hopefully I will be able to restore the original c# source codes and continue to improve the code.
 
 You can download and install the module like this:
+
 `Install-Module -Name DeviceManagement -Scope CurrentUser -Force`
 
 To see the list of commands, run:
+
 `Get-Command -Module DeviceManagement`
 
 To get a list of drivers, run:
+
 `Get-Driver | Out-GridView`
+
 `Get-Device | Out-GridView`
 
