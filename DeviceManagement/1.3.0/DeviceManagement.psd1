@@ -1,6 +1,6 @@
 ﻿@{
 	RootModule = 'DeviceManagementCmdlet.dll'
-	ModuleVersion = '1.2.0'
+	ModuleVersion = '1.3.0'
 	GUID = 'fc6a72f2-57ea-4066-8489-a76ca0ce4fa2'
 	Author = 'Ricardo Mendes, Tobias Weltner'
 	CompanyName = 'https://powershell.one'

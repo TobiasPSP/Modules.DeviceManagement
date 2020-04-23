@@ -54,5 +54,56 @@
       </TableControl>
     </View>
 
+<View>
+      <Name>DeviceManagementLib.Device</Name>
+      <ViewSelectedBy>
+        <TypeName>DeviceManager.Engine.Device</TypeName>
+      </ViewSelectedBy>
+      <TableControl>
+        <TableHeaders>
+          <TableColumnHeader>
+	    <Width>35</Width>
+            <Label>Name</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Width>9</Width>
+            <Label>IsPresent</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Width>10</Width>
+            <Label>HasProblem</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+	    <Width>21</Width>
+            <Label>InstallState</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+       	    <Width>20</Width>
+            <Label>DriverProvider</Label>
+          </TableColumnHeader>
+        </TableHeaders>
+        <TableRowEntries>
+          <TableRowEntry>
+            <TableColumnItems>
+              <TableColumnItem>
+                <PropertyName>Name</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>IsPresent</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>HasProblem</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>InstallState</PropertyName>
+              </TableColumnItem>
+              <TableColumnItem>
+                <PropertyName>DriverProvider</PropertyName>
+              </TableColumnItem>
+            </TableColumnItems>
+          </TableRowEntry>
+        </TableRowEntries>
+      </TableControl>
+    </View>
   </ViewDefinitions>
 </Configuration>
