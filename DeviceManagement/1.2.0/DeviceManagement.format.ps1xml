@@ -5,38 +5,48 @@
     <View>
       <Name>DeviceManagementLib.Device</Name>
       <ViewSelectedBy>
-        <TypeName>DeviceManagementLib.Device</TypeName>
+        <TypeName>DeviceManager.Engine.Driver</TypeName>
       </ViewSelectedBy>
       <TableControl>
-        <AutoSize />
         <TableHeaders>
           <TableColumnHeader>
-            <Label>Name</Label>
+	    <Width>30</Width>
+            <Label>Description</Label>
           </TableColumnHeader>
           <TableColumnHeader>
-            <Label>Enabled</Label>
+            <Width>17</Width>
+            <Label>ManufacturerName</Label>
           </TableColumnHeader>
           <TableColumnHeader>
-            <Label>Class</Label>
+            <Width>12</Width>
+            <Label>ProviderName</Label>
           </TableColumnHeader>
           <TableColumnHeader>
-            <Label>InstanceId</Label>
+            <Width>14</Width>
+            <Label>DriverDate</Label>
+          </TableColumnHeader>
+          <TableColumnHeader>
+            <Width>13</Width>
+            <Label>DriverVersion</Label>
           </TableColumnHeader>
         </TableHeaders>
         <TableRowEntries>
           <TableRowEntry>
             <TableColumnItems>
               <TableColumnItem>
-                <PropertyName>Name</PropertyName>
+                <PropertyName>Description</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
-                <PropertyName>IsEnabled</PropertyName>
+                <PropertyName>ManufacturerName</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
-                <PropertyName>Class</PropertyName>
+                <PropertyName>ProviderName</PropertyName>
               </TableColumnItem>
               <TableColumnItem>
-                <PropertyName>InstanceId</PropertyName>
+                <PropertyName>DriverDate</PropertyName>
+              </TableColumnItem>
+	      <TableColumnItem>
+                <PropertyName>DriverVersion</PropertyName>
               </TableColumnItem>
             </TableColumnItems>
           </TableRowEntry>
