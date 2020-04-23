@@ -20,3 +20,5 @@ To see the list of commands, run:
 
 To get a list of drivers, run:
 `Get-Driver | Out-GridView`
+`Get-Device | Out-GridView`
+
