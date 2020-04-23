@@ -7,8 +7,6 @@
 	Copyright = '2015'
 	Description = 'Windows PowerShell Module for managing devices'
 	FormatsToProcess = @('DeviceManagement.format.ps1xml')
-	ModuleList = @('DeviceManagement.dll')
-	FileList = @('DeviceManagement.dll', 'DeviceManagementLib.dll', 'DeviceManagement.psd1')
 	PrivateData = @{
     PSData = @{
         # Tags = @()
